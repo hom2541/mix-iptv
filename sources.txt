@@ -3,7 +3,7 @@ https://github.com/luongtamlong/DAKLAK_RADIO/raw/refs/heads/main/RadioQuocTe.m3u
 https://github.com/luongtamlong/DAKLAK_RADIO/raw/refs/heads/main/RadioVietNam.m3u [DIE]
 https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/vmttv
 https://raw.githubusercontent.com/Hannstcott/SunshineTr/refs/heads/main/sunshinetv.m3u
-https://263.org.vn/coban66 [DIE]
+https://263.org.vn/coban66
 https://vietngatv.short.gy/vietngatv
 https://hanoiiptv.short.gy/HaNoiIPTV
 https://bit.ly/quidntv [DIE]
@@ -26,7 +26,7 @@ https://github.com/thangmath/thangmath.github.io/raw/refs/heads/_/tv
 https://github.com/thangmath/thangmath.github.io/raw/refs/heads/_/tv2
 https://github.com/thung65/Iptv-vietnam/raw/refs/heads/main/tvvn
 https://github.com/evafourbasri-afk/streamedsu-autoscraper/raw/refs/heads/main/Branch/all.m3u
-https://freem3u.xyz/api/channels/x_1.0.1/app.json|User-Agent=okhttp/4.12.0 [DIE]
+https://freem3u.xyz/api/channels/x_1.0.1/app.json|User-Agent=okhttp/4.12.0
 https://raw.githubusercontent.com/ngvhiem/IPTV/refs/heads/main/IPTV.m3u
 https://raw.githubusercontent.com/ngvhiem/IPTV/refs/heads/main/IPTV-FPT.m3u
 https://github.com/DinhLap96/ListTivi/raw/refs/heads/main/ListTiVi/dltivi_v2.ndl
