@@ -73,7 +73,7 @@
           "type": "single",
           "enable_detail": true,
           "tvg_id": "vtv1hd",
-          "tvg_logo": "https://r2.epg.io.vn/2026-09-17/1.png",
+          "tvg_logo": "https://i.imgur.com/nfkmvAY.png",
           "sources": [
             {
               "id": "vtv1-src-1",
@@ -93,7 +93,7 @@
                         {
                           "id": "vtv1-s1",
                           "name": "Server 1",
-                          "url": "https://freem3u.xyz/api/live/play.m3u8?vid=2",
+                          "url": "https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/vtv1/master.m3u8",
                           "type": "hls",
                           "default": true,
                           "enableP2P": false,
@@ -105,18 +105,6 @@
                         {
                           "id": "vtv1-s2",
                           "name": "Server 2",
-                          "url": "https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/vtv1/master.m3u8",
-                          "type": "hls",
-                          "default": false,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        },
-                        {
-                          "id": "vtv1-s3",
-                          "name": "Server 3",
                           "url": "https://cdnet-cdn-01.onsports.vn/onplus/VTV1_HD/manifest.mpd",
                           "type": "hls",
                           "default": false,
@@ -193,7 +181,7 @@
           "type": "single",
           "enable_detail": true,
           "tvg_id": "vtv2hd",
-          "tvg_logo": "https://r2.epg.io.vn/2026-09-17/2.png",
+          "tvg_logo": "https://i.imgur.com/BVwi3K3.png",
           "sources": [
             {
               "id": "vtv2-src-1",
@@ -213,21 +201,9 @@
                         {
                           "id": "vtv2-s1",
                           "name": "Server 1",
-                          "url": "https://vmttv.dpdns.org/tv360/?id=vtv2",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        },
-                        {
-                          "id": "vtv2-s2",
-                          "name": "Server 2",
                           "url": "https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/vtv2/master.m3u8",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "enableP2P": false,
                           "subtitles": null,
                           "remote_data": null,
@@ -397,7 +373,7 @@
           "type": "single",
           "enable_detail": true,
           "tvg_id": "vtv4hd",
-          "tvg_logo": "https://r2.epg.io.vn/2026-09-17/4.png",
+          "tvg_logo": "https://i.imgur.com/9zVTtsA.png",
           "sources": [
             {
               "id": "vtv4-src-1",
@@ -417,21 +393,9 @@
                         {
                           "id": "vtv4-s1",
                           "name": "Server 1",
-                          "url": "https://vmttv.dpdns.org/tv360/?id=vtv4",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        },
-                        {
-                          "id": "vtv4-s2",
-                          "name": "Server 2",
                           "url": "https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/vtv4/master.m3u8",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "enableP2P": false,
                           "subtitles": null,
                           "remote_data": null,
@@ -700,54 +664,6 @@
           ]
         },
         {
-          "id": "vtv5-tây-nguyên",
-          "name": "VTV5 TÂY NGUYÊN",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "vtv5hdtn",
-          "tvg_logo": "https://r2.epg.io.vn/2026-09-17/7.png",
-          "sources": [
-            {
-              "id": "vtv5-tây-nguyên-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "vtv5-tây-nguyên-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "vtv5-tây-nguyên-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "vtv5-tây-nguyên-s1",
-                          "name": "Server 1",
-                          "url": "https://vmttv.dpdns.org/tv360/?id=vtv5-tay-nguyen",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
           "id": "vtv5-tây-nguyên-50fps",
           "name": "VTV5 TÂY NGUYÊN 50FPS",
           "description": null,
@@ -805,7 +721,7 @@
           "type": "single",
           "enable_detail": true,
           "tvg_id": "vtv6hd",
-          "tvg_logo": "https://r2.epg.io.vn/2026-09-17/8.png",
+          "tvg_logo": "https://freem3u.xyz/static/images/vtv/vtv6_new_2.png",
           "sources": [
             {
               "id": "vtv6-src-1",
@@ -825,21 +741,9 @@
                         {
                           "id": "vtv6-s1",
                           "name": "Server 1",
-                          "url": "https://vmttv.dpdns.org/tv360/?id=vtv6",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        },
-                        {
-                          "id": "vtv6-s2",
-                          "name": "Server 2",
                           "url": "https://freem3u.xyz/api/live/play.m3u8?vid=10043",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "enableP2P": false,
                           "subtitles": null,
                           "remote_data": null,
@@ -913,7 +817,7 @@
           "type": "single",
           "enable_detail": true,
           "tvg_id": "vtv7hd",
-          "tvg_logo": "https://r2.epg.io.vn/2026-09-17/9.png",
+          "tvg_logo": "https://i.imgur.com/AgamSNe.png",
           "sources": [
             {
               "id": "vtv7-src-1",
@@ -933,21 +837,9 @@
                         {
                           "id": "vtv7-s1",
                           "name": "Server 1",
-                          "url": "https://vmttv.dpdns.org/tv360/?id=vtv7",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        },
-                        {
-                          "id": "vtv7-s2",
-                          "name": "Server 2",
                           "url": "https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/vtv7/master.m3u8",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "enableP2P": false,
                           "subtitles": null,
                           "remote_data": null,
@@ -2015,7 +1907,7 @@
           "type": "single",
           "enable_detail": true,
           "tvg_id": "htvthethaohd",
-          "tvg_logo": "https://img-zlr1.tv360.vn/image1/2023/04/03/16/1680514594557/ab2557f0b015_640_360.png",
+          "tvg_logo": "https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/HTV%20Th%E1%BB%83%20Thao%20HD.png",
           "sources": [
             {
               "id": "htv-thể-thao-src-1",
@@ -2035,7 +1927,7 @@
                         {
                           "id": "htv-thể-thao-s1",
                           "name": "Server 1",
-                          "url": "https://vmttv.dpdns.org/tv360/?id=htv-the-thao",
+                          "url": "https://HaNoiIPTV.short.gy/HaNoiIPTV-HTV_The_Thao_HD",
                           "type": "hls",
                           "default": true,
                           "enableP2P": false,
@@ -2047,18 +1939,6 @@
                         {
                           "id": "htv-thể-thao-s2",
                           "name": "Server 2",
-                          "url": "https://HaNoiIPTV.short.gy/HaNoiIPTV-HTV_The_Thao_HD",
-                          "type": "hls",
-                          "default": false,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        },
-                        {
-                          "id": "htv-thể-thao-s3",
-                          "name": "Server 3",
                           "url": "https://freem3u.xyz/api/live/play.m3u8?vid=195",
                           "type": "hls",
                           "default": false,
@@ -2781,7 +2661,7 @@
           "type": "single",
           "enable_detail": true,
           "tvg_id": "",
-          "tvg_logo": "https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/ON%20Football%20HD.png",
+          "tvg_logo": "https://img-zlr1.tv360.vn/image1/2023/04/28/09/1682650260303/bc7fe5334315_480_270.png",
           "sources": [
             {
               "id": "on-football-src-1",
@@ -2801,7 +2681,7 @@
                         {
                           "id": "on-football-s1",
                           "name": "Server 1",
-                          "url": "https://HaNoiIPTV.short.gy/HaNoiIPTV-ON_Football_HD_du_phong",
+                          "url": "https://livevlisctcdnw.seenow.vn/mean/BONGDA_HD/manifest.mpd",
                           "type": "hls",
                           "default": true,
                           "enableP2P": false,
@@ -2813,7 +2693,7 @@
                         {
                           "id": "on-football-s2",
                           "name": "Server 2",
-                          "url": "https://livevlisctcdnw.seenow.vn/mean/BONGDA_HD/manifest.mpd",
+                          "url": "https://HaNoiIPTV.short.gy/HaNoiIPTV-ON_Football_HD_du_phong",
                           "type": "hls",
                           "default": false,
                           "enableP2P": false,
@@ -2841,7 +2721,7 @@
           "type": "single",
           "enable_detail": true,
           "tvg_id": "",
-          "tvg_logo": "https://i.ytimg.com/vi/fyT_xa-g-Pk/hq720.jpg",
+          "tvg_logo": "https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/VTVCab1%20-%20ON%20Vie%20GI%E1%BA%A2I%20TR%C3%8D%20HD.png",
           "sources": [
             {
               "id": "on-giải-trí-src-1",
@@ -2861,7 +2741,7 @@
                         {
                           "id": "on-giải-trí-s1",
                           "name": "Server 1",
-                          "url": "https://freem3u.xyz/api/live/play.m3u8?vid=180",
+                          "url": "https://HaNoiIPTV.short.gy/HaNoiIPTV-ON_Vie_GIAI_TRI_HD_du_phong",
                           "type": "hls",
                           "default": true,
                           "enableP2P": false,
@@ -2873,18 +2753,6 @@
                         {
                           "id": "on-giải-trí-s2",
                           "name": "Server 2",
-                          "url": "https://HaNoiIPTV.short.gy/HaNoiIPTV-ON_Vie_GIAI_TRI_HD_du_phong",
-                          "type": "hls",
-                          "default": false,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        },
-                        {
-                          "id": "on-giải-trí-s3",
-                          "name": "Server 3",
                           "url": "https://freem3u.xyz/api/live/play.m3u8?id=180",
                           "type": "hls",
                           "default": false,
@@ -2913,7 +2781,7 @@
           "type": "single",
           "enable_detail": true,
           "tvg_id": "",
-          "tvg_logo": "https://r2.epg.io.vn/2026-09-17/33.png",
+          "tvg_logo": "https://img-zlr1.tv360.vn/image1/2023/04/28/09/1682650320416/f57f4fd63788_480_270.png",
           "sources": [
             {
               "id": "on-golf-src-1",
@@ -2933,33 +2801,9 @@
                         {
                           "id": "on-golf-s1",
                           "name": "Server 1",
-                          "url": "https://vmttv.dpdns.org/tv360/?id=vtvcab-23-golf-channel",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        },
-                        {
-                          "id": "on-golf-s2",
-                          "name": "Server 2",
-                          "url": "https://HaNoiIPTV.short.gy/HaNoiIPTV-ON_Golf_du_phong",
-                          "type": "hls",
-                          "default": false,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        },
-                        {
-                          "id": "on-golf-s3",
-                          "name": "Server 3",
                           "url": "https://livevlisctcdnw.seenow.vn/mean/THETHAO_GOLF_HD/manifest.mpd",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "enableP2P": false,
                           "subtitles": null,
                           "remote_data": null,
@@ -3033,7 +2877,7 @@
           "type": "single",
           "enable_detail": true,
           "tvg_id": "",
-          "tvg_logo": "https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/VTVCab9%20-%20ON%20Info%20TV%20HD.png",
+          "tvg_logo": "https://raw.githubusercontent.com/tathiquynh1971-oss/vietiptv.live/refs/heads/main/ON_Info_TV.png",
           "sources": [
             {
               "id": "on-info-src-1",
@@ -3053,7 +2897,7 @@
                         {
                           "id": "on-info-s1",
                           "name": "Server 1",
-                          "url": "https://HaNoiIPTV.short.gy/HaNoiIPTV-ON_Info_TV_HD_du_phong",
+                          "url": "https://freem3u.xyz/api/live/play.m3u8?vid=189",
                           "type": "hls",
                           "default": true,
                           "enableP2P": false,
@@ -3065,7 +2909,7 @@
                         {
                           "id": "on-info-s2",
                           "name": "Server 2",
-                          "url": "https://freem3u.xyz/api/live/play.m3u8?vid=189",
+                          "url": "https://HaNoiIPTV.short.gy/HaNoiIPTV-ON_Info_TV_HD_du_phong",
                           "type": "hls",
                           "default": false,
                           "enableP2P": false,
@@ -3276,54 +3120,6 @@
           ]
         },
         {
-          "id": "on-movies-you",
-          "name": "ON MOVIES YOU",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "",
-          "tvg_logo": "https://raw.githubusercontent.com/vuminhthanh12/Logo/refs/heads/main/onmovies.png",
-          "sources": [
-            {
-              "id": "on-movies-you-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "on-movies-you-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "on-movies-you-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "on-movies-you-s1",
-                          "name": "Server 1",
-                          "url": "https://freem3u.xyz/api/live/play.m3u8?vid=181",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
           "id": "on-music",
           "name": "ON MUSIC",
           "description": null,
@@ -3453,7 +3249,7 @@
           "type": "single",
           "enable_detail": true,
           "tvg_id": "",
-          "tvg_logo": "https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/ON%20Sports%20HD.png",
+          "tvg_logo": "https://img-zlr1.tv360.vn/image1/2023/04/28/09/1682650417399/08d4190f7711_480_270.png",
           "sources": [
             {
               "id": "on-sports-src-1",
@@ -3473,7 +3269,7 @@
                         {
                           "id": "on-sports-s1",
                           "name": "Server 1",
-                          "url": "https://HaNoiIPTV.short.gy/HaNoiIPTV-ON_Sports_HD_du_phong",
+                          "url": "https://livevlisctcdnw.seenow.vn/livesnv2/THETHAO_HD/manifest.mpd",
                           "type": "hls",
                           "default": true,
                           "enableP2P": false,
@@ -3485,7 +3281,7 @@
                         {
                           "id": "on-sports-s2",
                           "name": "Server 2",
-                          "url": "https://livevlisctcdnw.seenow.vn/livesnv2/THETHAO_HD/manifest.mpd",
+                          "url": "https://HaNoiIPTV.short.gy/HaNoiIPTV-ON_Sports_HD_du_phong",
                           "type": "hls",
                           "default": false,
                           "enableP2P": false,
@@ -3513,7 +3309,7 @@
           "type": "single",
           "enable_detail": true,
           "tvg_id": "",
-          "tvg_logo": "https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/ON%20Sports%20News%20HD.png",
+          "tvg_logo": "https://img-zlr1.tv360.vn/image1/2023/04/28/09/1682650363143/71956aa35c78_480_270.png",
           "sources": [
             {
               "id": "on-sports-news-src-1",
@@ -3533,7 +3329,7 @@
                         {
                           "id": "on-sports-news-s1",
                           "name": "Server 1",
-                          "url": "https://HaNoiIPTV.short.gy/HaNoiIPTV-ON_Sports_News_du_phong",
+                          "url": "https://livevlisctcdnw.seenow.vn/mean/THETHAO_TINTUC_HD/manifest.mpd",
                           "type": "hls",
                           "default": true,
                           "enableP2P": false,
@@ -3545,7 +3341,7 @@
                         {
                           "id": "on-sports-news-s2",
                           "name": "Server 2",
-                          "url": "https://livevlisctcdnw.seenow.vn/mean/THETHAO_TINTUC_HD/manifest.mpd",
+                          "url": "https://HaNoiIPTV.short.gy/HaNoiIPTV-ON_Sports_News_du_phong",
                           "type": "hls",
                           "default": false,
                           "enableP2P": false,
@@ -3573,7 +3369,7 @@
           "type": "single",
           "enable_detail": true,
           "tvg_id": "",
-          "tvg_logo": "https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/On%20Sports%2B%20HD.png",
+          "tvg_logo": "https://img-zlr1.tv360.vn/image1/2023/04/28/09/1682650447548/72acfa0eca2c_480_270.png",
           "sources": [
             {
               "id": "on-sports+-src-1",
@@ -3593,7 +3389,7 @@
                         {
                           "id": "on-sports+-s1",
                           "name": "Server 1",
-                          "url": "https://HaNoiIPTV.short.gy/HaNoiIPTV-ON_Sports_Plus_HD_du_phong",
+                          "url": "https://livevlisctcdnw.seenow.vn/livesnv2/HAY_TV/manifest.mpd",
                           "type": "hls",
                           "default": true,
                           "enableP2P": false,
@@ -3605,7 +3401,7 @@
                         {
                           "id": "on-sports+-s2",
                           "name": "Server 2",
-                          "url": "https://livevlisctcdnw.seenow.vn/livesnv2/HAY_TV/manifest.mpd",
+                          "url": "https://HaNoiIPTV.short.gy/HaNoiIPTV-ON_Sports_Plus_HD_du_phong",
                           "type": "hls",
                           "default": false,
                           "enableP2P": false,
@@ -4252,54 +4048,6 @@
                           "id": "canal+-live-8-s1",
                           "name": "Server 1",
                           "url": "http://line.watchtivo-8k.com:80/play/live.php?mac=00:1A:79:3F:0C:96&stream=941468&extension=ts&play_token=oLegwjYDD5",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
-          "id": "canal+-live-9",
-          "name": "CANAL+ LIVE 9",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "",
-          "tvg_logo": "https://s1.dmcdn.net/v/JjNMw1Z-Js5kwK7KN/x720",
-          "sources": [
-            {
-              "id": "canal+-live-9-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "canal+-live-9-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "canal+-live-9-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "canal+-live-9-s1",
-                          "name": "Server 1",
-                          "url": "http://line.ciao-ott.net:80/play/live.php?mac=00:1A:79:C8:7B:30&stream=941470&extension=ts&play_token=10cpSzSEsB",
                           "type": "hls",
                           "default": true,
                           "enableP2P": false,
@@ -5422,54 +5170,6 @@
           ]
         },
         {
-          "id": "play-chuỗi-thể-thao-giải-trí",
-          "name": "PLAY CHUỖI THỂ THAO GIẢI TRÍ",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "",
-          "tvg_logo": "https://images.fptplay53.net/media/channels/OTT_ECS/2026/09/22/fill-bg-logo-410x230_1790071429252.jpg",
-          "sources": [
-            {
-              "id": "play-chuỗi-thể-thao-giải-trí-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "play-chuỗi-thể-thao-giải-trí-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "play-chuỗi-thể-thao-giải-trí-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "play-chuỗi-thể-thao-giải-trí-s1",
-                          "name": "Server 1",
-                          "url": "https://247.dpdns.org/ShortLink/fptplay",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
           "id": "sky-sport-tennis",
           "name": "SKY SPORT TENNIS",
           "description": null,
@@ -5740,6 +5440,54 @@
                           "id": "матч-планета-s1",
                           "name": "Server 1",
                           "url": "http://fs.uplink.kz/match_planeta/tracks-v1a1/mono.m3u8?token=onlinetv",
+                          "type": "hls",
+                          "default": true,
+                          "enableP2P": false,
+                          "subtitles": null,
+                          "remote_data": null,
+                          "request_headers": null,
+                          "comments": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "remote_data": null
+            }
+          ]
+        },
+        {
+          "id": "матч-премьер",
+          "name": "МАТЧ ПРЕМЬЕР",
+          "description": null,
+          "label": null,
+          "image": null,
+          "display": "default",
+          "type": "single",
+          "enable_detail": true,
+          "tvg_id": "",
+          "tvg_logo": "https://i.imgur.com/GQPyHYK.png",
+          "sources": [
+            {
+              "id": "матч-премьер-src-1",
+              "name": "Source 1",
+              "image": null,
+              "contents": [
+                {
+                  "id": "матч-премьер-content-1",
+                  "name": "Content 1",
+                  "image": null,
+                  "streams": [
+                    {
+                      "id": "матч-премьер-stream-1",
+                      "name": "Main",
+                      "image": null,
+                      "stream_links": [
+                        {
+                          "id": "матч-премьер-s1",
+                          "name": "Server 1",
+                          "url": "http://flussonic.mkpnet.ru/tv-ee3651e1e7ce5cbf/video.m3u8",
                           "type": "hls",
                           "default": true,
                           "enableP2P": false,
@@ -7892,54 +7640,6 @@
           ]
         },
         {
-          "id": "русский-детектив",
-          "name": "РУССКИЙ ДЕТЕКТИВ",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "",
-          "tvg_logo": "https://i.imgur.com/H3qhN8S.png",
-          "sources": [
-            {
-              "id": "русский-детектив-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "русский-детектив-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "русский-детектив-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "русский-детектив-s1",
-                          "name": "Server 1",
-                          "url": "http://flussonic.mkpnet.ru/tv-2997fed720614567/video.m3u8",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
           "id": "русский-роман",
           "name": "РУССКИЙ РОМАН",
           "description": null,
@@ -9150,54 +8850,6 @@
           ]
         },
         {
-          "id": "cartoon-network-việt-nam",
-          "name": "CARTOON NETWORK VIỆT NAM",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "",
-          "tvg_logo": "https://freem3u.xyz/static/images/global/cartoon-network.png",
-          "sources": [
-            {
-              "id": "cartoon-network-việt-nam-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "cartoon-network-việt-nam-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "cartoon-network-việt-nam-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "cartoon-network-việt-nam-s1",
-                          "name": "Server 1",
-                          "url": "https://freem3u.xyz/api/live/play.m3u8?tid=cn",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
           "id": "cartoonito",
           "name": "CARTOONITO",
           "description": null,
@@ -9630,6 +9282,54 @@
           ]
         },
         {
+          "id": "cnn-tiếng-anh",
+          "name": "CNN TIẾNG ANH",
+          "description": null,
+          "label": null,
+          "image": null,
+          "display": "default",
+          "type": "single",
+          "enable_detail": true,
+          "tvg_id": "cnn",
+          "tvg_logo": "https://freem3u.xyz/static/images/global/cnn.png",
+          "sources": [
+            {
+              "id": "cnn-tiếng-anh-src-1",
+              "name": "Source 1",
+              "image": null,
+              "contents": [
+                {
+                  "id": "cnn-tiếng-anh-content-1",
+                  "name": "Content 1",
+                  "image": null,
+                  "streams": [
+                    {
+                      "id": "cnn-tiếng-anh-stream-1",
+                      "name": "Main",
+                      "image": null,
+                      "stream_links": [
+                        {
+                          "id": "cnn-tiếng-anh-s1",
+                          "name": "Server 1",
+                          "url": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_3_1464000.m3u8",
+                          "type": "hls",
+                          "default": true,
+                          "enableP2P": false,
+                          "subtitles": null,
+                          "remote_data": null,
+                          "request_headers": null,
+                          "comments": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "remote_data": null
+            }
+          ]
+        },
+        {
           "id": "da-vinci",
           "name": "DA VINCI",
           "description": null,
@@ -9979,18 +9679,6 @@
                           "remote_data": null,
                           "request_headers": null,
                           "comments": null
-                        },
-                        {
-                          "id": "dreamworks-s2",
-                          "name": "Server 2",
-                          "url": "http://antm.dynu.net:14285/rtp/232.84.3.59:11698",
-                          "type": "hls",
-                          "default": false,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
                         }
                       ]
                     }
@@ -10212,6 +9900,54 @@
                           "id": "filmbox-s1",
                           "name": "Server 1",
                           "url": "http://line.watchtivo-8k.com:80/play/live.php?mac=00:1A:79:3F:0C:96&stream=1084668&extension=ts&play_token=onuPSPIV6o",
+                          "type": "hls",
+                          "default": true,
+                          "enableP2P": false,
+                          "subtitles": null,
+                          "remote_data": null,
+                          "request_headers": null,
+                          "comments": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "remote_data": null
+            }
+          ]
+        },
+        {
+          "id": "fon-music",
+          "name": "FON MUSIC",
+          "description": null,
+          "label": null,
+          "image": null,
+          "display": "default",
+          "type": "single",
+          "enable_detail": true,
+          "tvg_id": "",
+          "tvg_logo": "https://i.imgur.com/tXABQDE.png",
+          "sources": [
+            {
+              "id": "fon-music-src-1",
+              "name": "Source 1",
+              "image": null,
+              "contents": [
+                {
+                  "id": "fon-music-content-1",
+                  "name": "Content 1",
+                  "image": null,
+                  "streams": [
+                    {
+                      "id": "fon-music-stream-1",
+                      "name": "Main",
+                      "image": null,
+                      "stream_links": [
+                        {
+                          "id": "fon-music-s1",
+                          "name": "Server 1",
+                          "url": "http://tntm.mediacdn.ru/cdn/tntmusic/tracks-v1a1/mono.m3u8",
                           "type": "hls",
                           "default": true,
                           "enableP2P": false,
@@ -10912,6 +10648,54 @@
       "enable_detail": true,
       "channels": [
         {
+          "id": "7-канал-красноярск",
+          "name": "7 КАНАЛ КРАСНОЯРСК",
+          "description": null,
+          "label": null,
+          "image": null,
+          "display": "default",
+          "type": "single",
+          "enable_detail": true,
+          "tvg_id": "",
+          "tvg_logo": "https://i.postimg.cc/cvknPRt9/7.png",
+          "sources": [
+            {
+              "id": "7-канал-красноярск-src-1",
+              "name": "Source 1",
+              "image": null,
+              "contents": [
+                {
+                  "id": "7-канал-красноярск-content-1",
+                  "name": "Content 1",
+                  "image": null,
+                  "streams": [
+                    {
+                      "id": "7-канал-красноярск-stream-1",
+                      "name": "Main",
+                      "image": null,
+                      "stream_links": [
+                        {
+                          "id": "7-канал-красноярск-s1",
+                          "name": "Server 1",
+                          "url": "http://7channel.iptv2022.com/tracks-v5a1/mono.m3u8",
+                          "type": "hls",
+                          "default": true,
+                          "enableP2P": false,
+                          "subtitles": null,
+                          "remote_data": null,
+                          "request_headers": null,
+                          "comments": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "remote_data": null
+            }
+          ]
+        },
+        {
           "id": "atv1-báo-và-ptth-an-giang",
           "name": "ATV1 BÁO VÀ PTTH AN GIANG",
           "description": null,
@@ -10942,54 +10726,6 @@
                           "id": "atv1-báo-và-ptth-an-giang-s1",
                           "name": "Server 1",
                           "url": "https://freem3u.xyz/api/live/play.m3u8?vid=66",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
-          "id": "atv2",
-          "name": "ATV2",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "",
-          "tvg_logo": "https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/ATV2.jpg",
-          "sources": [
-            {
-              "id": "atv2-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "atv2-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "atv2-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "atv2-s1",
-                          "name": "Server 1",
-                          "url": "https://freem3u.xyz/api/live/play.m3u8?vid=35",
                           "type": "hls",
                           "default": true,
                           "enableP2P": false,
@@ -11302,6 +11038,102 @@
                           "id": "cần-thơ-2-báo-và-ptth-thành-phố-cần-thơ-s1",
                           "name": "Server 1",
                           "url": "https://live.canthotv.vn/cs2/live.stream/chunklist_w1497265452.m3u8",
+                          "type": "hls",
+                          "default": true,
+                          "enableP2P": false,
+                          "subtitles": null,
+                          "remote_data": null,
+                          "request_headers": null,
+                          "comments": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "remote_data": null
+            }
+          ]
+        },
+        {
+          "id": "cần-thơ-3",
+          "name": "CẦN THƠ 3",
+          "description": null,
+          "label": null,
+          "image": null,
+          "display": "default",
+          "type": "single",
+          "enable_detail": true,
+          "tvg_id": "",
+          "tvg_logo": "https://freem3u.xyz/static/images/diaphuong/caicach/cantho3_new.png",
+          "sources": [
+            {
+              "id": "cần-thơ-3-src-1",
+              "name": "Source 1",
+              "image": null,
+              "contents": [
+                {
+                  "id": "cần-thơ-3-content-1",
+                  "name": "Content 1",
+                  "image": null,
+                  "streams": [
+                    {
+                      "id": "cần-thơ-3-stream-1",
+                      "name": "Main",
+                      "image": null,
+                      "stream_links": [
+                        {
+                          "id": "cần-thơ-3-s1",
+                          "name": "Server 1",
+                          "url": "https://live.canthotv.vn/cs3/tv/playlist.m3u8",
+                          "type": "hls",
+                          "default": true,
+                          "enableP2P": false,
+                          "subtitles": null,
+                          "remote_data": null,
+                          "request_headers": null,
+                          "comments": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "remote_data": null
+            }
+          ]
+        },
+        {
+          "id": "cần-thơ-3-báo-và-ptth-thành-phố-cần-thơ",
+          "name": "CẦN THƠ 3 BÁO VÀ PTTH THÀNH PHỐ CẦN THƠ",
+          "description": null,
+          "label": null,
+          "image": null,
+          "display": "default",
+          "type": "single",
+          "enable_detail": true,
+          "tvg_id": "",
+          "tvg_logo": "https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/CanTho3.png",
+          "sources": [
+            {
+              "id": "cần-thơ-3-báo-và-ptth-thành-phố-cần-thơ-src-1",
+              "name": "Source 1",
+              "image": null,
+              "contents": [
+                {
+                  "id": "cần-thơ-3-báo-và-ptth-thành-phố-cần-thơ-content-1",
+                  "name": "Content 1",
+                  "image": null,
+                  "streams": [
+                    {
+                      "id": "cần-thơ-3-báo-và-ptth-thành-phố-cần-thơ-stream-1",
+                      "name": "Main",
+                      "image": null,
+                      "stream_links": [
+                        {
+                          "id": "cần-thơ-3-báo-và-ptth-thành-phố-cần-thơ-s1",
+                          "name": "Server 1",
+                          "url": "https://live.canthotv.vn/cs3/tv/chunklist_w1003748170.m3u8",
                           "type": "hls",
                           "default": true,
                           "enableP2P": false,
@@ -11992,54 +11824,6 @@
           ]
         },
         {
-          "id": "qngtv2-th-quảng-ngãi-2",
-          "name": "QNGTV2 TH QUẢNG NGÃI 2",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "",
-          "tvg_logo": "https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/QNgTV2%20-%20Truy%E1%BB%81n%20h%C3%ACnh%20Qu%E1%BA%A3ng%20Ng%C3%A3i%202%20%E2%80%A2%20B%E1%BA%A3n%202.png",
-          "sources": [
-            {
-              "id": "qngtv2-th-quảng-ngãi-2-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "qngtv2-th-quảng-ngãi-2-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "qngtv2-th-quảng-ngãi-2-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "qngtv2-th-quảng-ngãi-2-s1",
-                          "name": "Server 1",
-                          "url": "https://HaNoiIPTV.short.gy/HaNoiIPTV-QNgTV2-Truyen_hinh_Quang_Ngai_2",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
           "id": "qtv1",
           "name": "QTV1",
           "description": null,
@@ -12310,6 +12094,54 @@
                           "id": "th-cần-thơ-2-s1",
                           "name": "Server 1",
                           "url": "https://live.canthotv.vn/cs2/live.stream/chunklist.m3u8",
+                          "type": "hls",
+                          "default": true,
+                          "enableP2P": false,
+                          "subtitles": null,
+                          "remote_data": null,
+                          "request_headers": null,
+                          "comments": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "remote_data": null
+            }
+          ]
+        },
+        {
+          "id": "th-cần-thơ-3",
+          "name": "TH CẦN THƠ 3",
+          "description": null,
+          "label": null,
+          "image": null,
+          "display": "default",
+          "type": "single",
+          "enable_detail": true,
+          "tvg_id": "",
+          "tvg_logo": "https://i.imgur.com/7FA1I1d.png",
+          "sources": [
+            {
+              "id": "th-cần-thơ-3-src-1",
+              "name": "Source 1",
+              "image": null,
+              "contents": [
+                {
+                  "id": "th-cần-thơ-3-content-1",
+                  "name": "Content 1",
+                  "image": null,
+                  "streams": [
+                    {
+                      "id": "th-cần-thơ-3-stream-1",
+                      "name": "Main",
+                      "image": null,
+                      "stream_links": [
+                        {
+                          "id": "th-cần-thơ-3-s1",
+                          "name": "Server 1",
+                          "url": "https://live.canthotv.vn/cs3/tv/chunklist.m3u8",
                           "type": "hls",
                           "default": true,
                           "enableP2P": false,
@@ -12856,54 +12688,6 @@
           ]
         },
         {
-          "id": "tn1",
-          "name": "TN1",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "",
-          "tvg_logo": "https://freem3u.xyz/static/images/diaphuong/thainguyen.png",
-          "sources": [
-            {
-              "id": "tn1-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "tn1-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "tn1-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "tn1-s1",
-                          "name": "Server 1",
-                          "url": "https://live.mediatech.vn/live/285743a79dd21fd4a838894125ec17fd168/playlist.m3u8",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
           "id": "đn2-th-đồng-nai-2",
           "name": "ĐN2 TH ĐỒNG NAI 2",
           "description": null,
@@ -13126,102 +12910,6 @@
                           "id": "đnnrtv2-th-tp-đồng-nai-2-s1",
                           "name": "Server 1",
                           "url": "https://cdn.mediatech.vn/dongnai/tv2live-transmux.m3u8",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
-          "id": "đnnrtv3",
-          "name": "ĐNNRTV3",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "",
-          "tvg_logo": "https://raw.githubusercontent.com/tathiquynh1971-oss/vietiptv.live/refs/heads/main/%253FNNRTV3_logo.png",
-          "sources": [
-            {
-              "id": "đnnrtv3-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "đnnrtv3-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "đnnrtv3-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "đnnrtv3-s1",
-                          "name": "Server 1",
-                          "url": "https://sgchill.io.vn/s97/vieon.php?id=dongnai3",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
-          "id": "đnnrtv3-báo-và-ptth-đồng-nai",
-          "name": "ĐNNRTV3 BÁO VÀ PTTH ĐỒNG NAI",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "",
-          "tvg_logo": "https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/ĐNNRTV3.png",
-          "sources": [
-            {
-              "id": "đnnrtv3-báo-và-ptth-đồng-nai-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "đnnrtv3-báo-và-ptth-đồng-nai-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "đnnrtv3-báo-và-ptth-đồng-nai-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "đnnrtv3-báo-và-ptth-đồng-nai-s1",
-                          "name": "Server 1",
-                          "url": "https://tv.vietanhtv.top/vieon/vieon.php?id=dong-nai-3",
                           "type": "hls",
                           "default": true,
                           "enableP2P": false,
@@ -13540,6 +13228,54 @@
           ]
         },
         {
+          "id": "лен-тв-24",
+          "name": "ЛЕН ТВ 24",
+          "description": null,
+          "label": null,
+          "image": null,
+          "display": "default",
+          "type": "single",
+          "enable_detail": true,
+          "tvg_id": "",
+          "tvg_logo": "https://i.imgur.com/d02uxkB.png",
+          "sources": [
+            {
+              "id": "лен-тв-24-src-1",
+              "name": "Source 1",
+              "image": null,
+              "contents": [
+                {
+                  "id": "лен-тв-24-content-1",
+                  "name": "Content 1",
+                  "image": null,
+                  "streams": [
+                    {
+                      "id": "лен-тв-24-stream-1",
+                      "name": "Main",
+                      "image": null,
+                      "stream_links": [
+                        {
+                          "id": "лен-тв-24-s1",
+                          "name": "Server 1",
+                          "url": "http://stream.smotrim.ru/hls/lentv24/playlist_5.m3u8",
+                          "type": "hls",
+                          "default": true,
+                          "enableP2P": false,
+                          "subtitles": null,
+                          "remote_data": null,
+                          "request_headers": null,
+                          "comments": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "remote_data": null
+            }
+          ]
+        },
+        {
           "id": "ортрк-12-канал",
           "name": "ОРТРК 12 КАНАЛ",
           "description": null,
@@ -13588,8 +13324,8 @@
           ]
         },
         {
-          "id": "тв7",
-          "name": "ТВ7",
+          "id": "сибирь-24",
+          "name": "СИБИРЬ 24",
           "description": null,
           "label": null,
           "image": null,
@@ -13597,27 +13333,27 @@
           "type": "single",
           "enable_detail": true,
           "tvg_id": "",
-          "tvg_logo": "https://i.postimg.cc/LXFmrmMb/TV7.png",
+          "tvg_logo": "https://i.imgur.com/WxU6QUB.png",
           "sources": [
             {
-              "id": "тв7-src-1",
+              "id": "сибирь-24-src-1",
               "name": "Source 1",
               "image": null,
               "contents": [
                 {
-                  "id": "тв7-content-1",
+                  "id": "сибирь-24-content-1",
                   "name": "Content 1",
                   "image": null,
                   "streams": [
                     {
-                      "id": "тв7-stream-1",
+                      "id": "сибирь-24-stream-1",
                       "name": "Main",
                       "image": null,
                       "stream_links": [
                         {
-                          "id": "тв7-s1",
+                          "id": "сибирь-24-s1",
                           "name": "Server 1",
-                          "url": "https://ctv7.ru/live/index.m3u8",
+                          "url": "http://live-gtrk.smotrim.ru/vgtrk/novosibirsk/sibir24-hd/track_105_2da7a401/chunklist.m3u8",
                           "type": "hls",
                           "default": true,
                           "enableP2P": false,
@@ -15148,66 +14884,6 @@
           ]
         },
         {
-          "id": "nghệ-an",
-          "name": "NGHỆ AN",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "nghean",
-          "tvg_logo": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Logo_NTV_Ngh%E1%BB%87_An_2013.png",
-          "sources": [
-            {
-              "id": "nghệ-an-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "nghệ-an-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "nghệ-an-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "nghệ-an-s1",
-                          "name": "Server 1",
-                          "url": "https://live.truyenhinhnghean.vn/hls/na1/index.m3u8",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        },
-                        {
-                          "id": "nghệ-an-s2",
-                          "name": "Server 2",
-                          "url": "https://live.mediatech.vn/live/2859591eef2e92249b682db021f4247c364/playlist.m3u8",
-                          "type": "hls",
-                          "default": false,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
           "id": "ntv-báo-và-ptth-nghệ-an",
           "name": "NTV BÁO VÀ PTTH NGHỆ AN",
           "description": null,
@@ -15304,54 +14980,6 @@
           ]
         },
         {
-          "id": "ptv-báo-và-ptth-phú-thọ",
-          "name": "PTV BÁO VÀ PTTH PHÚ THỌ",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "phutho",
-          "tvg_logo": "https://img-zlr1.tv360.vn/image1/2023/05/16/02/168417957456/7016ca1be5fa_640_360.png",
-          "sources": [
-            {
-              "id": "ptv-báo-và-ptth-phú-thọ-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "ptv-báo-và-ptth-phú-thọ-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "ptv-báo-và-ptth-phú-thọ-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "ptv-báo-và-ptth-phú-thọ-s1",
-                          "name": "Server 1",
-                          "url": "https://vmttv.dpdns.org/tv360/?id=phu-tho",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
           "id": "ptv-th-phú-thọ",
           "name": "PTV TH PHÚ THỌ",
           "description": null,
@@ -15382,54 +15010,6 @@
                           "id": "ptv-th-phú-thọ-s1",
                           "name": "Server 1",
                           "url": "https://live.mediatech.vn/live/2856e81d201c99b4649b5c62f3cddad3881/chunklist.m3u8",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
-          "id": "qrtv",
-          "name": "QRTV",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "",
-          "tvg_logo": "https://freem3u.xyz/static/images/diaphuong/caicach/quangtri.png",
-          "sources": [
-            {
-              "id": "qrtv-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "qrtv-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "qrtv-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "qrtv-s1",
-                          "name": "Server 1",
-                          "url": "https://tructuyen.baoquangtri.vn:5443/LiveApp/streams/20VcR6dL2B9Krwob13486956694488871.m3u8",
                           "type": "hls",
                           "default": true,
                           "enableP2P": false,
@@ -15742,54 +15322,6 @@
                           "id": "thlc-báo-và-ptth-lào-cai-s1",
                           "name": "Server 1",
                           "url": "https://freem3u.xyz/api/live/play.m3u8?vid=71",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
-          "id": "thp",
-          "name": "THP",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "",
-          "tvg_logo": "https://freem3u.xyz/static/images/diaphuong/haiphong.png",
-          "sources": [
-            {
-              "id": "thp-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "thp-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "thp-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "thp-s1",
-                          "name": "Server 1",
-                          "url": "https://cdn.thhp.vn/live/285a4c99665fdf84e94956c66bc7dc7eb5d/playlist.m3u8",
                           "type": "hls",
                           "default": true,
                           "enableP2P": false,
@@ -16780,6 +16312,54 @@
           ]
         },
         {
+          "id": "отв-екатеринбург",
+          "name": "ОТВ ЕКАТЕРИНБУРГ",
+          "description": null,
+          "label": null,
+          "image": null,
+          "display": "default",
+          "type": "single",
+          "enable_detail": true,
+          "tvg_id": "",
+          "tvg_logo": "https://i.postimg.cc/fTfSCgmv/OTV.png",
+          "sources": [
+            {
+              "id": "отв-екатеринбург-src-1",
+              "name": "Source 1",
+              "image": null,
+              "contents": [
+                {
+                  "id": "отв-екатеринбург-content-1",
+                  "name": "Content 1",
+                  "image": null,
+                  "streams": [
+                    {
+                      "id": "отв-екатеринбург-stream-1",
+                      "name": "Main",
+                      "image": null,
+                      "stream_links": [
+                        {
+                          "id": "отв-екатеринбург-s1",
+                          "name": "Server 1",
+                          "url": "http://vd.obltv.ru/watch/air_sd.m3u8",
+                          "type": "hls",
+                          "default": true,
+                          "enableP2P": false,
+                          "subtitles": null,
+                          "remote_data": null,
+                          "request_headers": null,
+                          "comments": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "remote_data": null
+            }
+          ]
+        },
+        {
           "id": "отс",
           "name": "ОТС",
           "description": null,
@@ -16810,54 +16390,6 @@
                           "id": "отс-s1",
                           "name": "Server 1",
                           "url": "http://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_OTC_ap1f55f482a2df2bede07c661806c4eb/hls/1920x1080@4504/playlist.m3u8",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
-          "id": "первый-псковский",
-          "name": "ПЕРВЫЙ ПСКОВСКИЙ",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "",
-          "tvg_logo": "https://i.imgur.com/1gciFqi.png",
-          "sources": [
-            {
-              "id": "первый-псковский-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "первый-псковский-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "первый-псковский-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "первый-псковский-s1",
-                          "name": "Server 1",
-                          "url": "http://live-3.otcnet.ru/pskov/tracks-v1a1/mono.m3u8",
                           "type": "hls",
                           "default": true,
                           "enableP2P": false,
@@ -17676,6 +17208,54 @@
                           "id": "btv6-shopping-24h-s1",
                           "name": "Server 1",
                           "url": "https://freem3u.xyz/api/live/play.m3u8?vid=9838",
+                          "type": "hls",
+                          "default": true,
+                          "enableP2P": false,
+                          "subtitles": null,
+                          "remote_data": null,
+                          "request_headers": null,
+                          "comments": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "remote_data": null
+            }
+          ]
+        },
+        {
+          "id": "leomax-24",
+          "name": "LEOMAX 24",
+          "description": null,
+          "label": null,
+          "image": null,
+          "display": "default",
+          "type": "single",
+          "enable_detail": true,
+          "tvg_id": "",
+          "tvg_logo": "https://i.imgur.com/qU9ohQu.png",
+          "sources": [
+            {
+              "id": "leomax-24-src-1",
+              "name": "Source 1",
+              "image": null,
+              "contents": [
+                {
+                  "id": "leomax-24-content-1",
+                  "name": "Content 1",
+                  "image": null,
+                  "streams": [
+                    {
+                      "id": "leomax-24-stream-1",
+                      "name": "Main",
+                      "image": null,
+                      "stream_links": [
+                        {
+                          "id": "leomax-24-s1",
+                          "name": "Server 1",
+                          "url": "http://tvshops.bonus-tv.ru:80/cdn/shop24/tracks-v1a1/mono.m3u8",
                           "type": "hls",
                           "default": true,
                           "enableP2P": false,
@@ -18996,6 +18576,54 @@
           ]
         },
         {
+          "id": "тв3",
+          "name": "ТВ3",
+          "description": null,
+          "label": null,
+          "image": null,
+          "display": "default",
+          "type": "single",
+          "enable_detail": true,
+          "tvg_id": "",
+          "tvg_logo": "https://i.imgur.com/JLAvq8O.png",
+          "sources": [
+            {
+              "id": "тв3-src-1",
+              "name": "Source 1",
+              "image": null,
+              "contents": [
+                {
+                  "id": "тв3-content-1",
+                  "name": "Content 1",
+                  "image": null,
+                  "streams": [
+                    {
+                      "id": "тв3-stream-1",
+                      "name": "Main",
+                      "image": null,
+                      "stream_links": [
+                        {
+                          "id": "тв3-s1",
+                          "name": "Server 1",
+                          "url": "http://flussonic.mkpnet.ru/tv-b9ddf7deb3d25757/video.m3u8",
+                          "type": "hls",
+                          "default": true,
+                          "enableP2P": false,
+                          "subtitles": null,
+                          "remote_data": null,
+                          "request_headers": null,
+                          "comments": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "remote_data": null
+            }
+          ]
+        },
+        {
           "id": "тнт4",
           "name": "ТНТ4",
           "description": null,
@@ -19188,6 +18816,54 @@
           ]
         },
         {
+          "id": "zee-bangla-sonar",
+          "name": "ZEE BANGLA SONAR",
+          "description": null,
+          "label": null,
+          "image": null,
+          "display": "default",
+          "type": "single",
+          "enable_detail": true,
+          "tvg_id": "",
+          "tvg_logo": "https://i.postimg.cc/TYXNKKFt/image.png",
+          "sources": [
+            {
+              "id": "zee-bangla-sonar-src-1",
+              "name": "Source 1",
+              "image": null,
+              "contents": [
+                {
+                  "id": "zee-bangla-sonar-content-1",
+                  "name": "Content 1",
+                  "image": null,
+                  "streams": [
+                    {
+                      "id": "zee-bangla-sonar-stream-1",
+                      "name": "Main",
+                      "image": null,
+                      "stream_links": [
+                        {
+                          "id": "zee-bangla-sonar-s1",
+                          "name": "Server 1",
+                          "url": "https://d1g8wgjurz8via.cloudfront.net/bpk-tv/ColorsHD/default/ColorsHD.m3u8",
+                          "type": "hls",
+                          "default": true,
+                          "enableP2P": false,
+                          "subtitles": null,
+                          "remote_data": null,
+                          "request_headers": null,
+                          "comments": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "remote_data": null
+            }
+          ]
+        },
+        {
           "id": "вопросы-и-ответы",
           "name": "ВОПРОСЫ И ОТВЕТЫ",
           "description": null,
@@ -19236,54 +18912,6 @@
           ]
         },
         {
-          "id": "домашний",
-          "name": "ДОМАШНИЙ",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "",
-          "tvg_logo": "https://i.imgur.com/WaLwOyt.jpeg",
-          "sources": [
-            {
-              "id": "домашний-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "домашний-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "домашний-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "домашний-s1",
-                          "name": "Server 1",
-                          "url": "http://flussonic.mkpnet.ru/tv-b515ccce67923f8a/video.m3u8",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
           "id": "новое-телевидение",
           "name": "НОВОЕ ТЕЛЕВИДЕНИЕ",
           "description": null,
@@ -19314,6 +18942,54 @@
                           "id": "новое-телевидение-s1",
                           "name": "Server 1",
                           "url": "https://live.zhanafm.kz:8181/memfs/fd715789-382f-4ec6-b4ba-d8e2fde59c7b.m3u8",
+                          "type": "hls",
+                          "default": true,
+                          "enableP2P": false,
+                          "subtitles": null,
+                          "remote_data": null,
+                          "request_headers": null,
+                          "comments": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "remote_data": null
+            }
+          ]
+        },
+        {
+          "id": "перец-international",
+          "name": "ПЕРЕЦ INTERNATIONAL",
+          "description": null,
+          "label": null,
+          "image": null,
+          "display": "default",
+          "type": "single",
+          "enable_detail": true,
+          "tvg_id": "",
+          "tvg_logo": "https://i.imgur.com/Y84p1y6.png",
+          "sources": [
+            {
+              "id": "перец-international-src-1",
+              "name": "Source 1",
+              "image": null,
+              "contents": [
+                {
+                  "id": "перец-international-content-1",
+                  "name": "Content 1",
+                  "image": null,
+                  "streams": [
+                    {
+                      "id": "перец-international-stream-1",
+                      "name": "Main",
+                      "image": null,
+                      "stream_links": [
+                        {
+                          "id": "перец-international-s1",
+                          "name": "Server 1",
+                          "url": "http://api.dommir.top/ch/Perets_RU/playlist.m3u8",
                           "type": "hls",
                           "default": true,
                           "enableP2P": false,
@@ -19870,8 +19546,8 @@
           ]
         },
         {
-          "id": "fm-896-pt-cần-thơ-2",
-          "name": "FM 896 PT CẦN THƠ 2",
+          "id": "fm-106-pt-phú-thọ",
+          "name": "FM 106 PT PHÚ THỌ",
           "description": null,
           "label": null,
           "image": null,
@@ -19882,24 +19558,24 @@
           "tvg_logo": "",
           "sources": [
             {
-              "id": "fm-896-pt-cần-thơ-2-src-1",
+              "id": "fm-106-pt-phú-thọ-src-1",
               "name": "Source 1",
               "image": null,
               "contents": [
                 {
-                  "id": "fm-896-pt-cần-thơ-2-content-1",
+                  "id": "fm-106-pt-phú-thọ-content-1",
                   "name": "Content 1",
                   "image": null,
                   "streams": [
                     {
-                      "id": "fm-896-pt-cần-thơ-2-stream-1",
+                      "id": "fm-106-pt-phú-thọ-stream-1",
                       "name": "Main",
                       "image": null,
                       "stream_links": [
                         {
-                          "id": "fm-896-pt-cần-thơ-2-s1",
+                          "id": "fm-106-pt-phú-thọ-s1",
                           "name": "Server 1",
-                          "url": "https://HaNoiIPTV.short.gy/HaNoiIPTVPlus-FM89.6-Phat_thanh_Can_Tho_2",
+                          "url": "https://HaNoiIPTV.short.gy/HaNoiIPTVPlus-PTV-Phat_thanh_Phu_Tho",
                           "type": "hls",
                           "default": true,
                           "enableP2P": false,
@@ -20044,6 +19720,54 @@
                           "id": "fm-956-pt-tuyên-quang-s1",
                           "name": "Server 1",
                           "url": "https://HaNoiIPTV.short.gy/HaNoiIPTVPlus-TTV-Phat_thanh_Tuyen_Quang",
+                          "type": "hls",
+                          "default": true,
+                          "enableP2P": false,
+                          "subtitles": null,
+                          "remote_data": null,
+                          "request_headers": null,
+                          "comments": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "remote_data": null
+            }
+          ]
+        },
+        {
+          "id": "fm-961-pt-quảng-trị",
+          "name": "FM 961 PT QUẢNG TRỊ",
+          "description": null,
+          "label": null,
+          "image": null,
+          "display": "default",
+          "type": "single",
+          "enable_detail": true,
+          "tvg_id": "",
+          "tvg_logo": "",
+          "sources": [
+            {
+              "id": "fm-961-pt-quảng-trị-src-1",
+              "name": "Source 1",
+              "image": null,
+              "contents": [
+                {
+                  "id": "fm-961-pt-quảng-trị-content-1",
+                  "name": "Content 1",
+                  "image": null,
+                  "streams": [
+                    {
+                      "id": "fm-961-pt-quảng-trị-stream-1",
+                      "name": "Main",
+                      "image": null,
+                      "stream_links": [
+                        {
+                          "id": "fm-961-pt-quảng-trị-s1",
+                          "name": "Server 1",
+                          "url": "https://HaNoiIPTV.short.gy/HaNoiIPTVPlus-QRTV-Phat_thanh_Quang_Tri",
                           "type": "hls",
                           "default": true,
                           "enableP2P": false,
@@ -22502,6 +22226,54 @@
           ]
         },
         {
+          "id": "карусель",
+          "name": "КАРУСЕЛЬ",
+          "description": null,
+          "label": null,
+          "image": null,
+          "display": "default",
+          "type": "single",
+          "enable_detail": true,
+          "tvg_id": "",
+          "tvg_logo": "https://i.imgur.com/DnlngRZ.png",
+          "sources": [
+            {
+              "id": "карусель-src-1",
+              "name": "Source 1",
+              "image": null,
+              "contents": [
+                {
+                  "id": "карусель-content-1",
+                  "name": "Content 1",
+                  "image": null,
+                  "streams": [
+                    {
+                      "id": "карусель-stream-1",
+                      "name": "Main",
+                      "image": null,
+                      "stream_links": [
+                        {
+                          "id": "карусель-s1",
+                          "name": "Server 1",
+                          "url": "http://stream.smotrim.ru/hls/karusel/playlist_3.m3u8",
+                          "type": "hls",
+                          "default": true,
+                          "enableP2P": false,
+                          "subtitles": null,
+                          "remote_data": null,
+                          "request_headers": null,
+                          "comments": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "remote_data": null
+            }
+          ]
+        },
+        {
           "id": "мама",
           "name": "МАМА",
           "description": null,
@@ -23520,6 +23292,54 @@
           ]
         },
         {
+          "id": "россия-24",
+          "name": "РОССИЯ 24",
+          "description": null,
+          "label": null,
+          "image": null,
+          "display": "default",
+          "type": "single",
+          "enable_detail": true,
+          "tvg_id": "",
+          "tvg_logo": "https://i.imgur.com/tpqsFzm.png",
+          "sources": [
+            {
+              "id": "россия-24-src-1",
+              "name": "Source 1",
+              "image": null,
+              "contents": [
+                {
+                  "id": "россия-24-content-1",
+                  "name": "Content 1",
+                  "image": null,
+                  "streams": [
+                    {
+                      "id": "россия-24-stream-1",
+                      "name": "Main",
+                      "image": null,
+                      "stream_links": [
+                        {
+                          "id": "россия-24-s1",
+                          "name": "Server 1",
+                          "url": "http://stream.smotrim.ru/hls/russia24_int/playlist_3.m3u8",
+                          "type": "hls",
+                          "default": true,
+                          "enableP2P": false,
+                          "subtitles": null,
+                          "remote_data": null,
+                          "request_headers": null,
+                          "comments": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "remote_data": null
+            }
+          ]
+        },
+        {
           "id": "abc-news",
           "name": "ABC NEWS",
           "description": null,
@@ -23742,6 +23562,54 @@
                           "id": "cgtn-arabic-s1",
                           "name": "Server 1",
                           "url": "https://0472.org/hls/cgtna.m3u8",
+                          "type": "hls",
+                          "default": true,
+                          "enableP2P": false,
+                          "subtitles": null,
+                          "remote_data": null,
+                          "request_headers": null,
+                          "comments": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "remote_data": null
+            }
+          ]
+        },
+        {
+          "id": "cgtn-french",
+          "name": "CGTN FRENCH",
+          "description": null,
+          "label": null,
+          "image": null,
+          "display": "default",
+          "type": "single",
+          "enable_detail": true,
+          "tvg_id": "",
+          "tvg_logo": "https://i.imgur.com/nDWkCmL.png",
+          "sources": [
+            {
+              "id": "cgtn-french-src-1",
+              "name": "Source 1",
+              "image": null,
+              "contents": [
+                {
+                  "id": "cgtn-french-content-1",
+                  "name": "Content 1",
+                  "image": null,
+                  "streams": [
+                    {
+                      "id": "cgtn-french-stream-1",
+                      "name": "Main",
+                      "image": null,
+                      "stream_links": [
+                        {
+                          "id": "cgtn-french-s1",
+                          "name": "Server 1",
+                          "url": "https://0472.org/hls/cgtnf.m3u8",
                           "type": "hls",
                           "default": true,
                           "enableP2P": false,
@@ -25114,6 +24982,150 @@
           ]
         },
         {
+          "id": "sctv7",
+          "name": "SCTV7",
+          "description": null,
+          "label": null,
+          "image": null,
+          "display": "default",
+          "type": "single",
+          "enable_detail": true,
+          "tvg_id": "sctv7hd",
+          "tvg_logo": "https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/SCTV7%20HD.png",
+          "sources": [
+            {
+              "id": "sctv7-src-1",
+              "name": "Source 1",
+              "image": null,
+              "contents": [
+                {
+                  "id": "sctv7-content-1",
+                  "name": "Content 1",
+                  "image": null,
+                  "streams": [
+                    {
+                      "id": "sctv7-stream-1",
+                      "name": "Main",
+                      "image": null,
+                      "stream_links": [
+                        {
+                          "id": "sctv7-s1",
+                          "name": "Server 1",
+                          "url": "https://HaNoiIPTV.short.gy/HaNoiIPTV-SCTV7_HD_du_phong",
+                          "type": "hls",
+                          "default": true,
+                          "enableP2P": false,
+                          "subtitles": null,
+                          "remote_data": null,
+                          "request_headers": null,
+                          "comments": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "remote_data": null
+            }
+          ]
+        },
+        {
+          "id": "sctv11",
+          "name": "SCTV11",
+          "description": null,
+          "label": null,
+          "image": null,
+          "display": "default",
+          "type": "single",
+          "enable_detail": true,
+          "tvg_id": "sctv11hd",
+          "tvg_logo": "https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/SCTV11%20HD.png",
+          "sources": [
+            {
+              "id": "sctv11-src-1",
+              "name": "Source 1",
+              "image": null,
+              "contents": [
+                {
+                  "id": "sctv11-content-1",
+                  "name": "Content 1",
+                  "image": null,
+                  "streams": [
+                    {
+                      "id": "sctv11-stream-1",
+                      "name": "Main",
+                      "image": null,
+                      "stream_links": [
+                        {
+                          "id": "sctv11-s1",
+                          "name": "Server 1",
+                          "url": "https://HaNoiIPTV.short.gy/HaNoiIPTV-SCTV11_HD_du_phong",
+                          "type": "hls",
+                          "default": true,
+                          "enableP2P": false,
+                          "subtitles": null,
+                          "remote_data": null,
+                          "request_headers": null,
+                          "comments": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "remote_data": null
+            }
+          ]
+        },
+        {
+          "id": "sctv12",
+          "name": "SCTV12",
+          "description": null,
+          "label": null,
+          "image": null,
+          "display": "default",
+          "type": "single",
+          "enable_detail": true,
+          "tvg_id": "sctv12hd",
+          "tvg_logo": "https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/master/SCTV12%20HD.png",
+          "sources": [
+            {
+              "id": "sctv12-src-1",
+              "name": "Source 1",
+              "image": null,
+              "contents": [
+                {
+                  "id": "sctv12-content-1",
+                  "name": "Content 1",
+                  "image": null,
+                  "streams": [
+                    {
+                      "id": "sctv12-stream-1",
+                      "name": "Main",
+                      "image": null,
+                      "stream_links": [
+                        {
+                          "id": "sctv12-s1",
+                          "name": "Server 1",
+                          "url": "https://HaNoiIPTV.short.gy/HaNoiIPTV-SCTV12_HD_du_phong",
+                          "type": "hls",
+                          "default": true,
+                          "enableP2P": false,
+                          "subtitles": null,
+                          "remote_data": null,
+                          "request_headers": null,
+                          "comments": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "remote_data": null
+            }
+          ]
+        },
+        {
           "id": "sctv13-lady",
           "name": "SCTV13 LADY",
           "description": null,
@@ -25290,6 +25302,18 @@
                           "url": "https://HaNoiIPTV.short.gy/HaNoiIPTV-HGTV_HD",
                           "type": "hls",
                           "default": true,
+                          "enableP2P": false,
+                          "subtitles": null,
+                          "remote_data": null,
+                          "request_headers": null,
+                          "comments": null
+                        },
+                        {
+                          "id": "hgtv-s2",
+                          "name": "Server 2",
+                          "url": "https://freem3u.xyz/api/live/play.m3u8?vid=99",
+                          "type": "hls",
+                          "default": false,
                           "enableP2P": false,
                           "subtitles": null,
                           "remote_data": null,
@@ -28850,6 +28874,54 @@
           ]
         },
         {
+          "id": "ewtn-asiapacific",
+          "name": "EWTN ASIAPACIFIC",
+          "description": null,
+          "label": null,
+          "image": null,
+          "display": "default",
+          "type": "single",
+          "enable_detail": true,
+          "tvg_id": "",
+          "tvg_logo": "https://i.imgur.com/KvpMbkd.png",
+          "sources": [
+            {
+              "id": "ewtn-asiapacific-src-1",
+              "name": "Source 1",
+              "image": null,
+              "contents": [
+                {
+                  "id": "ewtn-asiapacific-content-1",
+                  "name": "Content 1",
+                  "image": null,
+                  "streams": [
+                    {
+                      "id": "ewtn-asiapacific-stream-1",
+                      "name": "Main",
+                      "image": null,
+                      "stream_links": [
+                        {
+                          "id": "ewtn-asiapacific-s1",
+                          "name": "Server 1",
+                          "url": "https://cdn3.wowza.com/1/QmVNUVhTNTZSS3Uz/YWQ0aHpi/hls/live/playlist.m3u8",
+                          "type": "hls",
+                          "default": true,
+                          "enableP2P": false,
+                          "subtitles": null,
+                          "remote_data": null,
+                          "request_headers": null,
+                          "comments": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "remote_data": null
+            }
+          ]
+        },
+        {
           "id": "gnc",
           "name": "GNC",
           "description": null,
@@ -28880,6 +28952,54 @@
                           "id": "gnc-s1",
                           "name": "Server 1",
                           "url": "https://live-gnctv.cdnvideo.ru/gnctv_hls_tcode/gnctv_tc1/playlist.m3u8",
+                          "type": "hls",
+                          "default": true,
+                          "enableP2P": false,
+                          "subtitles": null,
+                          "remote_data": null,
+                          "request_headers": null,
+                          "comments": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "remote_data": null
+            }
+          ]
+        },
+        {
+          "id": "god-stands",
+          "name": "GOD STANDS",
+          "description": null,
+          "label": null,
+          "image": null,
+          "display": "default",
+          "type": "single",
+          "enable_detail": true,
+          "tvg_id": "",
+          "tvg_logo": "https://i.imgur.com/EO6cYUI.png",
+          "sources": [
+            {
+              "id": "god-stands-src-1",
+              "name": "Source 1",
+              "image": null,
+              "contents": [
+                {
+                  "id": "god-stands-content-1",
+                  "name": "Content 1",
+                  "image": null,
+                  "streams": [
+                    {
+                      "id": "god-stands-stream-1",
+                      "name": "Main",
+                      "image": null,
+                      "stream_links": [
+                        {
+                          "id": "god-stands-s1",
+                          "name": "Server 1",
+                          "url": "https://online.godstands.tv:5443/WebRTCApp/streams/mainlive.m3u8",
                           "type": "hls",
                           "default": true,
                           "enableP2P": false,
@@ -31514,6 +31634,54 @@
           ]
         },
         {
+          "id": "россия-культура",
+          "name": "РОССИЯ КУЛЬТУРА",
+          "description": null,
+          "label": null,
+          "image": null,
+          "display": "default",
+          "type": "single",
+          "enable_detail": true,
+          "tvg_id": "",
+          "tvg_logo": "https://i.imgur.com/S12gaLc.png",
+          "sources": [
+            {
+              "id": "россия-культура-src-1",
+              "name": "Source 1",
+              "image": null,
+              "contents": [
+                {
+                  "id": "россия-культура-content-1",
+                  "name": "Content 1",
+                  "image": null,
+                  "streams": [
+                    {
+                      "id": "россия-культура-stream-1",
+                      "name": "Main",
+                      "image": null,
+                      "stream_links": [
+                        {
+                          "id": "россия-культура-s1",
+                          "name": "Server 1",
+                          "url": "http://live.smotrim.ru/vgtrk/4/kultura-hd/track_105_e50aac4b/chunklist.m3u8",
+                          "type": "hls",
+                          "default": true,
+                          "enableP2P": false,
+                          "subtitles": null,
+                          "remote_data": null,
+                          "request_headers": null,
+                          "comments": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "remote_data": null
+            }
+          ]
+        },
+        {
           "id": "союз",
           "name": "СОЮЗ",
           "description": null,
@@ -33845,7 +34013,7 @@
           "type": "single",
           "enable_detail": true,
           "tvg_id": "",
-          "tvg_logo": "https://foxxradio.com/upload/vi/1671788035.png.webp",
+          "tvg_logo": "https://adminmedia.kythuatvov.vn/uploads/images/channels/6eee74c6cd7a6f676e693494a267b930.png",
           "sources": [
             {
               "id": "vov5-src-1",
@@ -34424,66 +34592,6 @@
           ]
         },
         {
-          "id": "sơn-la",
-          "name": "SƠN LA",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "sonla",
-          "tvg_logo": "https://media.sonlatv.vn/upload/files/image/Back-PT.jpg",
-          "sources": [
-            {
-              "id": "sơn-la-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "sơn-la-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "sơn-la-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "sơn-la-s1",
-                          "name": "Server 1",
-                          "url": "https://cdn.sonlatv.vn/live/285bfb76d0d7a3c4615b853fe7a698e150c/chunklist.m3u8",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        },
-                        {
-                          "id": "sơn-la-s2",
-                          "name": "Server 2",
-                          "url": "https://live.mediatech.vn/live/28595222e707a364251b8724717894baa46/playlist.m3u8",
-                          "type": "hls",
-                          "default": false,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
           "id": "thái-nguyên",
           "name": "THÁI NGUYÊN",
           "description": null,
@@ -34694,54 +34802,6 @@
                           "id": "vov-giao-thông-hồ-chí-minh-s1",
                           "name": "Server 1",
                           "url": "https://str.vov.gov.vn/vovlive/vovGTHCM.sdp_aac/chunklist_w1213978008.m3u8",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
-          "id": "đà-nẵng",
-          "name": "ĐÀ NẴNG",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "danang",
-          "tvg_logo": "https://www.danangtv.vn/Uploads/Media/Images/101220211598radio.png",
-          "sources": [
-            {
-              "id": "đà-nẵng-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "đà-nẵng-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "đà-nẵng-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "đà-nẵng-s1",
-                          "name": "Server 1",
-                          "url": "https://live.mediatech.vn/live/2858a998b1c7fbf4522accd5554588ceae3/chunklist.m3u8",
                           "type": "hls",
                           "default": true,
                           "enableP2P": false,
@@ -35130,54 +35190,6 @@
           ]
         },
         {
-          "id": "thai-nguyen-fm1065mhz",
-          "name": "THAI NGUYEN FM1065MHZ",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "",
-          "tvg_logo": "",
-          "sources": [
-            {
-              "id": "thai-nguyen-fm1065mhz-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "thai-nguyen-fm1065mhz-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "thai-nguyen-fm1065mhz-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "thai-nguyen-fm1065mhz-s1",
-                          "name": "Server 1",
-                          "url": "https://live.mediatech.vn/live/28528cfdcd6bc7c44359b22e7a3a69c5857/playlist.m3u8",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
           "id": "tuyen-quang-radio-fm956mhz",
           "name": "TUYEN QUANG RADIO FM956MHZ",
           "description": null,
@@ -35420,6 +35432,54 @@
                           "id": "nghe-an-fm996mhz-s1",
                           "name": "Server 1",
                           "url": "https://live.mediatech.vn/live/285bfb777e354ec43038aa68950adbac3a4/chunklist.m3u8",
+                          "type": "hls",
+                          "default": true,
+                          "enableP2P": false,
+                          "subtitles": null,
+                          "remote_data": null,
+                          "request_headers": null,
+                          "comments": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "remote_data": null
+            }
+          ]
+        },
+        {
+          "id": "quang-ngai-fm-1029mhz",
+          "name": "QUANG NGAI FM 1029MHZ",
+          "description": null,
+          "label": null,
+          "image": null,
+          "display": "default",
+          "type": "single",
+          "enable_detail": true,
+          "tvg_id": "",
+          "tvg_logo": "https://freem3u.xyz/static/images/radio/quangngai.png",
+          "sources": [
+            {
+              "id": "quang-ngai-fm-1029mhz-src-1",
+              "name": "Source 1",
+              "image": null,
+              "contents": [
+                {
+                  "id": "quang-ngai-fm-1029mhz-content-1",
+                  "name": "Content 1",
+                  "image": null,
+                  "streams": [
+                    {
+                      "id": "quang-ngai-fm-1029mhz-stream-1",
+                      "name": "Main",
+                      "image": null,
+                      "stream_links": [
+                        {
+                          "id": "quang-ngai-fm-1029mhz-s1",
+                          "name": "Server 1",
+                          "url": "https://live.mediatech.vn/live/2853bb18b89d074498c81d7a0deb32a3755/playlist.m3u8",
                           "type": "hls",
                           "default": true,
                           "enableP2P": false,
@@ -39270,54 +39330,6 @@
                           "url": "http://yayin.yayindakiler.com:3044/;?type=mp3?",
                           "type": "hls",
                           "default": false,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
-          "id": "hamsi-fm",
-          "name": "HAMSI FM",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "",
-          "tvg_logo": "https://www.yilmaztv.com/logo/radyo/hamsi-fm.png",
-          "sources": [
-            {
-              "id": "hamsi-fm-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "hamsi-fm-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "hamsi-fm-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "hamsi-fm-s1",
-                          "name": "Server 1",
-                          "url": "http://radyo.hamsi.fm:8050/;?type=mp3",
-                          "type": "hls",
-                          "default": true,
                           "enableP2P": false,
                           "subtitles": null,
                           "remote_data": null,
@@ -43604,66 +43616,6 @@
           ]
         },
         {
-          "id": "sctv7",
-          "name": "SCTV7",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "sctv7hd",
-          "tvg_logo": "https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/sctv7.webp",
-          "sources": [
-            {
-              "id": "sctv7-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "sctv7-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "sctv7-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "sctv7-s1",
-                          "name": "Server 1",
-                          "url": "https://vmttv.dpdns.org/VTVGo/?sctv7",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        },
-                        {
-                          "id": "sctv7-s2",
-                          "name": "Server 2",
-                          "url": "https://HaNoiIPTV.short.gy/HaNoiIPTV-SCTV7_HD_du_phong",
-                          "type": "hls",
-                          "default": false,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
           "id": "sctv9",
           "name": "SCTV9",
           "description": null,
@@ -43673,7 +43625,7 @@
           "type": "single",
           "enable_detail": true,
           "tvg_id": "sctv9hd",
-          "tvg_logo": "https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/SCTV9.png",
+          "tvg_logo": "https://img.vtvprime.vn/iJL-nAvJpkrledm-GhoyqtPSGBH1F-mN7RL2BCsm9Qo/rs:fit:836:468/czM6Ly9wcmQtc24taW1hZ2VzL2NoYW5uZWwvZWU0MTFjMjEtNDdmNy00YjA0LWE1Y2MtOTcwYzBhMDFiYzM5LnBuZw==.png",
           "sources": [
             {
               "id": "sctv9-src-1",
@@ -43693,7 +43645,7 @@
                         {
                           "id": "sctv9-s1",
                           "name": "Server 1",
-                          "url": "https://vmttv.dpdns.org/VTVGo/?sctv9",
+                          "url": "https://livevlisctcdnw.seenow.vn/mean/SCTV9/manifest.mpd",
                           "type": "hls",
                           "default": true,
                           "enableP2P": false,
@@ -43706,138 +43658,6 @@
                           "id": "sctv9-s2",
                           "name": "Server 2",
                           "url": "https://HaNoiIPTV.short.gy/HaNoiIPTV-SCTV9_HD_du_phong",
-                          "type": "hls",
-                          "default": false,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        },
-                        {
-                          "id": "sctv9-s3",
-                          "name": "Server 3",
-                          "url": "https://livevlisctcdnw.seenow.vn/mean/SCTV9/manifest.mpd",
-                          "type": "hls",
-                          "default": false,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
-          "id": "sctv11",
-          "name": "SCTV11",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "sctv11hd",
-          "tvg_logo": "https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/sctv11.png",
-          "sources": [
-            {
-              "id": "sctv11-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "sctv11-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "sctv11-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "sctv11-s1",
-                          "name": "Server 1",
-                          "url": "https://vmttv.dpdns.org/VTVGo/?sctv11",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        },
-                        {
-                          "id": "sctv11-s2",
-                          "name": "Server 2",
-                          "url": "https://HaNoiIPTV.short.gy/HaNoiIPTV-SCTV11_HD_du_phong",
-                          "type": "hls",
-                          "default": false,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
-          "id": "sctv12",
-          "name": "SCTV12",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "sctv12hd",
-          "tvg_logo": "https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/sctv12.png",
-          "sources": [
-            {
-              "id": "sctv12-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "sctv12-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "sctv12-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "sctv12-s1",
-                          "name": "Server 1",
-                          "url": "https://vmttv.dpdns.org/VTVGo/?sctv12",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        },
-                        {
-                          "id": "sctv12-s2",
-                          "name": "Server 2",
-                          "url": "https://HaNoiIPTV.short.gy/HaNoiIPTV-SCTV12_HD_du_phong",
                           "type": "hls",
                           "default": false,
                           "enableP2P": false,
@@ -43897,7 +43717,7 @@
                         {
                           "id": "sctv15-s2",
                           "name": "Server 2",
-                          "url": "https://HaNoiIPTV.short.gy/HaNoiIPTV-SCTV15_HD_du_phong",
+                          "url": "https://livevlisctcdnw.seenow.vn/mean/SCTV15HD/manifest.mpd",
                           "type": "hls",
                           "default": false,
                           "enableP2P": false,
@@ -43909,57 +43729,9 @@
                         {
                           "id": "sctv15-s3",
                           "name": "Server 3",
-                          "url": "https://livevlisctcdnw.seenow.vn/mean/SCTV15HD/manifest.mpd",
+                          "url": "https://HaNoiIPTV.short.gy/HaNoiIPTV-SCTV15_HD_du_phong",
                           "type": "hls",
                           "default": false,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
-          "id": "sctv16",
-          "name": "SCTV16",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "sctv16hd",
-          "tvg_logo": "https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/sctv16.png",
-          "sources": [
-            {
-              "id": "sctv16-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "sctv16-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "sctv16-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "sctv16-s1",
-                          "name": "Server 1",
-                          "url": "https://vmttv.dpdns.org/VTVGo/?sctv16",
-                          "type": "hls",
-                          "default": true,
                           "enableP2P": false,
                           "subtitles": null,
                           "remote_data": null,
@@ -44017,7 +43789,7 @@
                         {
                           "id": "sctv17-s2",
                           "name": "Server 2",
-                          "url": "https://HaNoiIPTV.short.gy/HaNoiIPTV-SCTV17_HD_du_phong",
+                          "url": "https://livevlisctcdnw.seenow.vn/mean/SCTV17/manifest.mpd",
                           "type": "hls",
                           "default": false,
                           "enableP2P": false,
@@ -44029,57 +43801,9 @@
                         {
                           "id": "sctv17-s3",
                           "name": "Server 3",
-                          "url": "https://livevlisctcdnw.seenow.vn/mean/SCTV17/manifest.mpd",
+                          "url": "https://HaNoiIPTV.short.gy/HaNoiIPTV-SCTV17_HD_du_phong",
                           "type": "hls",
                           "default": false,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
-          "id": "sctv18",
-          "name": "SCTV18",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "sctv18hd",
-          "tvg_logo": "https://raw.githubusercontent.com/vuminhthanh12/vuminhthanh12/refs/heads/main/sctv18.png",
-          "sources": [
-            {
-              "id": "sctv18-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "sctv18-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "sctv18-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "sctv18-s1",
-                          "name": "Server 1",
-                          "url": "https://vmttv.dpdns.org/VTVGo/?sctv18",
-                          "type": "hls",
-                          "default": true,
                           "enableP2P": false,
                           "subtitles": null,
                           "remote_data": null,
@@ -44588,559 +44312,11 @@
       ]
     },
     {
-      "id": "sự-kiện-fpt-play",
-      "name": "Sự Kiện Fpt Play",
-      "display": "vertical",
-      "image": null,
-      "grid_number": 37,
-      "enable_detail": true,
-      "channels": [
-        {
-          "id": "event-5",
-          "name": "EVENT 5",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "",
-          "tvg_logo": "https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/23/23_1792693526148.jpg",
-          "sources": [
-            {
-              "id": "event-5-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "event-5-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "event-5-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "event-5-s1",
-                          "name": "Server 1",
-                          "url": "https://fbox-livecdn.fptplay.net/live/media/event-05/hls_avc_v6/index.m3u8?sign=1792756569-MDc1OTczMzQ-0-955a56e8419d26d23fc44d754d1f2ae1",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
-          "id": "sự-kiện-8",
-          "name": "SỰ KIỆN 8",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "",
-          "tvg_logo": "https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/21/thumbnail-live_1792573997488.jpg",
-          "sources": [
-            {
-              "id": "sự-kiện-8-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "sự-kiện-8-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "sự-kiện-8-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "sự-kiện-8-s1",
-                          "name": "Server 1",
-                          "url": "https://fbox-livecdn.fptplay.net/live/media/su-kien-08/hls_avc_v6/index.m3u8?sign=1792762628-MDc1OTczMzQ-0-7054eb053c946304023e83c6877124bc",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
-          "id": "sự-kiện-9",
-          "name": "SỰ KIỆN 9",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "",
-          "tvg_logo": "https://images.fptplay53.net/media/home_event/OTT_ECS/2026/10/22/slide-thumb_1792661331737.jpg",
-          "sources": [
-            {
-              "id": "sự-kiện-9-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "sự-kiện-9-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "sự-kiện-9-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "sự-kiện-9-s1",
-                          "name": "Server 1",
-                          "url": "https://fbox-livecdn.fptplay.net/live/media/su-kien-09/hls_avc_v6/index.m3u8?sign=1792763243-MDc1OTczMzQ-0-27fa17fa36df47ab63f680d5ab571c35",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "sự-kiện-tv360",
-      "name": "Sự Kiện Tv360",
-      "display": "vertical",
-      "image": null,
-      "grid_number": 38,
-      "enable_detail": true,
-      "channels": [
-        {
-          "id": "tv360-promo",
-          "name": "TV360 PROMO",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "",
-          "tvg_logo": "https://img-zlr1.tv360.vn/image1/2025/09/17/17/175810574912/a5f8181388ab_640_360.png",
-          "sources": [
-            {
-              "id": "tv360-promo-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "tv360-promo-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "tv360-promo-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "tv360-promo-s1",
-                          "name": "Server 1",
-                          "url": "https://freem3u.xyz/api/live/play.m3u8?vid=9904",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
-          "id": "tv360+3",
-          "name": "TV360+3",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "",
-          "tvg_logo": "https://img-ali1.tv360.vn/image1/2024/09/24/21/1727189872609/e569653d09d3_640_360.png",
-          "sources": [
-            {
-              "id": "tv360+3-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "tv360+3-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "tv360+3-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "tv360+3-s1",
-                          "name": "Server 1",
-                          "url": "https://vmttv.dpdns.org/tv360/?id=tv360-3",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
-          "id": "tv360+4",
-          "name": "TV360+4",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "",
-          "tvg_logo": "https://img-ali1.tv360.vn/image1/2024/09/24/21/1727189917617/5db9e5a7d0fd_640_360.png",
-          "sources": [
-            {
-              "id": "tv360+4-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "tv360+4-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "tv360+4-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "tv360+4-s1",
-                          "name": "Server 1",
-                          "url": "https://vmttv.dpdns.org/tv360/?id=tv360-4",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
-          "id": "tv360+6",
-          "name": "TV360+6",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "",
-          "tvg_logo": "https://img-ali1.tv360.vn/image1/2024/09/24/22/1727190010448/7463a4b5c14d_640_360.png",
-          "sources": [
-            {
-              "id": "tv360+6-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "tv360+6-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "tv360+6-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "tv360+6-s1",
-                          "name": "Server 1",
-                          "url": "https://vmttv.dpdns.org/tv360/?id=tv360-6",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
-          "id": "tv360+8",
-          "name": "TV360+8",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "",
-          "tvg_logo": "https://img-ali1.tv360.vn/image1/2024/09/24/22/172719012995/8df54b2f7576_640_360.png",
-          "sources": [
-            {
-              "id": "tv360+8-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "tv360+8-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "tv360+8-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "tv360+8-s1",
-                          "name": "Server 1",
-                          "url": "https://vmttv.dpdns.org/tv360/?id=tv360-8",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
-          "id": "tv360+10",
-          "name": "TV360+10",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "",
-          "tvg_logo": "https://img-ali1.tv360.vn/image1/2025/09/30/16/1759223393533/4ff09f8a4b49_640_360.png",
-          "sources": [
-            {
-              "id": "tv360+10-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "tv360+10-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "tv360+10-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "tv360+10-s1",
-                          "name": "Server 1",
-                          "url": "https://vmttv.dpdns.org/tv360/?id=tv360-10",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
-          "id": "tv360+14",
-          "name": "TV360+14",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "",
-          "tvg_logo": "https://img-zlr1.tv360.vn/image1/2026/05/15/01/177878325467/bbecb3ccb477_640_360.png",
-          "sources": [
-            {
-              "id": "tv360+14-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "tv360+14-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "tv360+14-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "tv360+14-s1",
-                          "name": "Server 1",
-                          "url": "https://vmttv.dpdns.org/tv360/?id=tv360-14",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
-          "id": "tv360+15",
-          "name": "TV360+15",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "",
-          "tvg_logo": "https://img-zlr1.tv360.vn/image1/2026/05/15/01/1778783528367/ddfa21d56253_640_360.png",
-          "sources": [
-            {
-              "id": "tv360+15-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "tv360+15-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "tv360+15-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "tv360+15-s1",
-                          "name": "Server 1",
-                          "url": "https://vmttv.dpdns.org/tv360/?id=tv360-15",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "sự-kiện-vtvprime",
       "name": "Sự Kiện Vtvprime",
       "display": "vertical",
       "image": null,
-      "grid_number": 39,
+      "grid_number": 37,
       "enable_detail": true,
       "channels": [
         {
@@ -45918,7 +45094,7 @@
       "name": "Truyền Hình",
       "display": "vertical",
       "image": null,
-      "grid_number": 40,
+      "grid_number": 38,
       "enable_detail": true,
       "channels": [
         {
@@ -46018,6 +45194,54 @@
           ]
         },
         {
+          "id": "nghệ-an",
+          "name": "NGHỆ AN",
+          "description": null,
+          "label": null,
+          "image": null,
+          "display": "default",
+          "type": "single",
+          "enable_detail": true,
+          "tvg_id": "nghean",
+          "tvg_logo": "https://i.imgur.com/FLvFSLS.png",
+          "sources": [
+            {
+              "id": "nghệ-an-src-1",
+              "name": "Source 1",
+              "image": null,
+              "contents": [
+                {
+                  "id": "nghệ-an-content-1",
+                  "name": "Content 1",
+                  "image": null,
+                  "streams": [
+                    {
+                      "id": "nghệ-an-stream-1",
+                      "name": "Main",
+                      "image": null,
+                      "stream_links": [
+                        {
+                          "id": "nghệ-an-s1",
+                          "name": "Server 1",
+                          "url": "https://live.mediatech.vn/live/2859591eef2e92249b682db021f4247c364/playlist.m3u8",
+                          "type": "hls",
+                          "default": true,
+                          "enableP2P": false,
+                          "subtitles": null,
+                          "remote_data": null,
+                          "request_headers": null,
+                          "comments": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "remote_data": null
+            }
+          ]
+        },
+        {
           "id": "phú-thọ",
           "name": "PHÚ THỌ",
           "description": null,
@@ -46072,7 +45296,7 @@
       "name": "Tvb",
       "display": "vertical",
       "image": null,
-      "grid_number": 41,
+      "grid_number": 39,
       "enable_detail": true,
       "channels": [
         {
@@ -46142,7 +45366,7 @@
       "name": "Âm Nhạc",
       "display": "vertical",
       "image": null,
-      "grid_number": 42,
+      "grid_number": 40,
       "enable_detail": true,
       "channels": [
         {
@@ -46200,7 +45424,7 @@
       "name": "🇨🇳| Trung Quốc",
       "display": "vertical",
       "image": null,
-      "grid_number": 43,
+      "grid_number": 41,
       "enable_detail": true,
       "channels": [
         {
@@ -47110,7 +46334,7 @@
       "name": "🇬🇧 Uk Radio",
       "display": "vertical",
       "image": null,
-      "grid_number": 44,
+      "grid_number": 42,
       "enable_detail": true,
       "channels": [
         {
@@ -47216,7 +46440,7 @@
       "name": "🇰🇷| Hàn Quốc",
       "display": "vertical",
       "image": null,
-      "grid_number": 45,
+      "grid_number": 43,
       "enable_detail": true,
       "channels": [
         {
@@ -47442,54 +46666,6 @@
                           "id": "chosun-s1",
                           "name": "Server 1",
                           "url": "http://onair.cdn.tvchosun.com/origin1/_definst_/tvchosun_s1/playlist.m3u8",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
-          "id": "cjb-sbs",
-          "name": "CJB SBS",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "",
-          "tvg_logo": "https://static.wikia.nocookie.net/logos/images/3/3f/CJB.jpg/revision/latest?cb=20200224093248&path-prefix=ko",
-          "sources": [
-            {
-              "id": "cjb-sbs-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "cjb-sbs-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "cjb-sbs-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "cjb-sbs-s1",
-                          "name": "Server 1",
-                          "url": "http://1.222.207.80:1935/live/cjbtv/playlist.m3u8",
                           "type": "hls",
                           "default": true,
                           "enableP2P": false,
@@ -48018,7 +47194,7 @@
       "name": "🇹🇭| Thái Lan",
       "display": "vertical",
       "image": null,
-      "grid_number": 46,
+      "grid_number": 44,
       "enable_detail": true,
       "channels": [
         {
@@ -48172,7 +47348,7 @@
       "name": "🌐| Thiết Yếu",
       "display": "vertical",
       "image": null,
-      "grid_number": 47,
+      "grid_number": 45,
       "enable_detail": true,
       "channels": [
         {
@@ -48278,7 +47454,7 @@
       "name": "📦| In The Box",
       "display": "vertical",
       "image": null,
-      "grid_number": 48,
+      "grid_number": 46,
       "enable_detail": true,
       "channels": [
         {
@@ -48323,7 +47499,7 @@
                         {
                           "id": "box-movie-1-s2",
                           "name": "Server 2",
-                          "url": "https://HaNoiIPTV.short.gy/HaNoiIPTV-Box_Movie_1_HD",
+                          "url": "https://livevlisctcdnw.seenow.vn/mean/BM1/manifest.mpd",
                           "type": "hls",
                           "default": false,
                           "enableP2P": false,
@@ -48335,7 +47511,7 @@
                         {
                           "id": "box-movie-1-s3",
                           "name": "Server 3",
-                          "url": "https://livevlisctcdnw.seenow.vn/mean/BM1/manifest.mpd",
+                          "url": "https://HaNoiIPTV.short.gy/HaNoiIPTV-Box_Movie_1_HD",
                           "type": "hls",
                           "default": false,
                           "enableP2P": false,
@@ -48600,12 +47776,12 @@
       "name": "🔴 ⚽ Gà Vàng 33",
       "display": "vertical",
       "image": null,
-      "grid_number": 49,
+      "grid_number": 47,
       "enable_detail": true,
       "channels": [
         {
-          "id": "blv-gà-siêu-ngố",
-          "name": "BLV GÀ SIÊU NGỐ",
+          "id": "blv-gà-siêu-tốc",
+          "name": "BLV GÀ SIÊU TỐC",
           "description": null,
           "label": null,
           "image": null,
@@ -48616,98 +47792,26 @@
           "tvg_logo": "https://raw.githubusercontent.com/quanlehong539/VTC-Now/refs/heads/main/GaVang33_logo.png",
           "sources": [
             {
-              "id": "blv-gà-siêu-ngố-src-1",
+              "id": "blv-gà-siêu-tốc-src-1",
               "name": "Source 1",
               "image": null,
               "contents": [
                 {
-                  "id": "blv-gà-siêu-ngố-content-1",
+                  "id": "blv-gà-siêu-tốc-content-1",
                   "name": "Content 1",
                   "image": null,
                   "streams": [
                     {
-                      "id": "blv-gà-siêu-ngố-stream-1",
+                      "id": "blv-gà-siêu-tốc-stream-1",
                       "name": "Main",
                       "image": null,
                       "stream_links": [
                         {
-                          "id": "blv-gà-siêu-ngố-s1",
+                          "id": "blv-gà-siêu-tốc-s1",
                           "name": "Server 1",
-                          "url": "https://live2.zktsva.app/live/301238.m3u8",
+                          "url": "https://live2.zktsva.app/live/307240.m3u8",
                           "type": "hls",
                           "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        },
-                        {
-                          "id": "blv-gà-siêu-ngố-s2",
-                          "name": "Server 2",
-                          "url": "https://live2.zktsva.app/live/301238.flv",
-                          "type": "hls",
-                          "default": false,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
-          "id": "blv-gà-siêu-nhí",
-          "name": "BLV GÀ SIÊU NHÍ",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "",
-          "tvg_logo": "https://raw.githubusercontent.com/quanlehong539/VTC-Now/refs/heads/main/GaVang33_logo.png",
-          "sources": [
-            {
-              "id": "blv-gà-siêu-nhí-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "blv-gà-siêu-nhí-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "blv-gà-siêu-nhí-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "blv-gà-siêu-nhí-s1",
-                          "name": "Server 1",
-                          "url": "https://live2.zktsva.app/live/301263.m3u8",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        },
-                        {
-                          "id": "blv-gà-siêu-nhí-s2",
-                          "name": "Server 2",
-                          "url": "https://live2.zktsva.app/live/301263.flv",
-                          "type": "hls",
-                          "default": false,
                           "enableP2P": false,
                           "subtitles": null,
                           "remote_data": null,
@@ -48730,7 +47834,7 @@
       "name": "🔴 ⚽ 🏀 Cola Tv Sv3",
       "display": "vertical",
       "image": null,
-      "grid_number": 50,
+      "grid_number": 48,
       "enable_detail": true,
       "channels": [
         {
@@ -49988,7 +49092,7 @@
       "name": "🔴 ⚽ 🏐 Gà Vàng 24H",
       "display": "vertical",
       "image": null,
-      "grid_number": 51,
+      "grid_number": 49,
       "enable_detail": true,
       "channels": [
         {
@@ -50520,54 +49624,6 @@
           ]
         },
         {
-          "id": "blv-siêu-quậy",
-          "name": "BLV SIÊU QUẬY",
-          "description": null,
-          "label": null,
-          "image": null,
-          "display": "default",
-          "type": "single",
-          "enable_detail": true,
-          "tvg_id": "",
-          "tvg_logo": "https://cdn.gavangtv2026c.com/2026/07/cropped-gavangtv-logo.webp",
-          "sources": [
-            {
-              "id": "blv-siêu-quậy-src-1",
-              "name": "Source 1",
-              "image": null,
-              "contents": [
-                {
-                  "id": "blv-siêu-quậy-content-1",
-                  "name": "Content 1",
-                  "image": null,
-                  "streams": [
-                    {
-                      "id": "blv-siêu-quậy-stream-1",
-                      "name": "Main",
-                      "image": null,
-                      "stream_links": [
-                        {
-                          "id": "blv-siêu-quậy-s1",
-                          "name": "Server 1",
-                          "url": "https://playback.livetl002.com/live/6a2a59b347bbddd62a8dc4e4.flv",
-                          "type": "hls",
-                          "default": true,
-                          "enableP2P": false,
-                          "subtitles": null,
-                          "remote_data": null,
-                          "request_headers": null,
-                          "comments": null
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "remote_data": null
-            }
-          ]
-        },
-        {
           "id": "blv-súp-lơ",
           "name": "BLV SÚP LƠ",
           "description": null,
@@ -50718,7 +49774,7 @@
       "name": "🔴 ⚽ 🏐 Xôi Chè Tv",
       "display": "vertical",
       "image": null,
-      "grid_number": 52,
+      "grid_number": 50,
       "enable_detail": true,
       "channels": [
         {
