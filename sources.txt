@@ -6,7 +6,7 @@ https://raw.githubusercontent.com/Hannstcott/SunshineTr/refs/heads/main/sunshine
 https://263.org.vn/coban66
 https://vietngatv.short.gy/vietngatv
 https://hanoiiptv.short.gy/HaNoiIPTV
-https://bit.ly/quidntv
+https://bit.ly/quidntv [DIE]
 https://github.com/giangnam0201/All-In-One-IPTV/raw/refs/heads/main/channels.m3u
 https://livesport.io.vn/easport [DIE]
 https://tinyurl.com/deki2610 [DIE]
@@ -22,8 +22,8 @@ https://github.com/vietng228/m3u/raw/refs/heads/main/Japan.m3u [DIE]
 https://github.com/vietng228/m3u/raw/refs/heads/main/m3u.m3u
 https://github.com/vietng228/m3u/raw/refs/heads/main/new.m3u
 https://github.com/lockerzlong/androidtv_ltl/raw/refs/heads/playlists/all.m3u [DIE]
-https://github.com/thangmath/thangmath.github.io/raw/refs/heads/_/tv
-https://github.com/thangmath/thangmath.github.io/raw/refs/heads/_/tv2
+https://github.com/thangmath/thangmath.github.io/raw/refs/heads/_/tv [DIE]
+https://github.com/thangmath/thangmath.github.io/raw/refs/heads/_/tv2 [DIE]
 https://github.com/thung65/Iptv-vietnam/raw/refs/heads/main/tvvn
 https://github.com/evafourbasri-afk/streamedsu-autoscraper/raw/refs/heads/main/Branch/all.m3u
 https://freem3u.xyz/api/channels/x_1.0.1/app.json|User-Agent=okhttp/4.12.0
